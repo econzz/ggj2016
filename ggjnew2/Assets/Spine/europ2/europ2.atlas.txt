@@ -1,0 +1,62 @@
+
+europ2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL
+  rotate: true
+  xy: 648, 391
+  size: 88, 205
+  orig: 88, 205
+  offset: 0, 0
+  index: -1
+armR
+  rotate: true
+  xy: 434, 385
+  size: 94, 212
+  orig: 94, 212
+  offset: 0, 0
+  index: -1
+bad
+  rotate: true
+  xy: 277, 85
+  size: 141, 85
+  orig: 141, 85
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 2
+  size: 224, 273
+  orig: 224, 273
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 2, 228
+  size: 325, 251
+  orig: 325, 251
+  offset: 0, 0
+  index: -1
+good
+  rotate: false
+  xy: 855, 392
+  size: 141, 87
+  orig: 141, 87
+  offset: 0, 0
+  index: -1
+legL
+  rotate: true
+  xy: 434, 284
+  size: 99, 198
+  orig: 99, 198
+  offset: 0, 0
+  index: -1
+legR
+  rotate: false
+  xy: 329, 270
+  size: 103, 209
+  orig: 103, 209
+  offset: 0, 0
+  index: -1

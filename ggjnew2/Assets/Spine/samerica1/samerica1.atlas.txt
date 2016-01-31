@@ -1,0 +1,69 @@
+
+samerica1.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL
+  rotate: false
+  xy: 557, 122
+  size: 91, 180
+  orig: 91, 180
+  offset: 0, 0
+  index: -1
+armR
+  rotate: false
+  xy: 599, 304
+  size: 253, 195
+  orig: 253, 195
+  offset: 0, 0
+  index: -1
+bad
+  rotate: false
+  xy: 2, 2
+  size: 145, 73
+  orig: 145, 73
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 307, 80
+  size: 248, 227
+  orig: 248, 227
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 2, 172
+  size: 303, 327
+  orig: 303, 327
+  offset: 0, 0
+  index: -1
+good
+  rotate: false
+  xy: 650, 220
+  size: 135, 82
+  orig: 135, 82
+  offset: 0, 0
+  index: -1
+legL
+  rotate: false
+  xy: 854, 296
+  size: 85, 203
+  orig: 85, 203
+  offset: 0, 0
+  index: -1
+legR
+  rotate: true
+  xy: 2, 77
+  size: 93, 215
+  orig: 93, 215
+  offset: 0, 0
+  index: -1
+shoulder
+  rotate: false
+  xy: 307, 309
+  size: 290, 190
+  orig: 290, 190
+  offset: 0, 0
+  index: -1

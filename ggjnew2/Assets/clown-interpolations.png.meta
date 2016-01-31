@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 1bc901696e5af403996f8fb52d12a4dd
+timeCreated: 1454110296
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: clown-interpolations_0
+    21300002: clown-interpolations_1
+    21300004: clown-interpolations_2
+    21300006: clown-interpolations_3
+    21300008: clown-interpolations_4
+    21300010: clown-interpolations_5
+    21300012: clown-interpolations_6
+    21300014: clown-interpolations_7
+    21300016: clown-interpolations_8
+    21300018: clown-interpolations_9
+    21300020: clown-interpolations_10
+    21300022: clown-interpolations_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: clown-interpolations_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 839
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -171, y: 273.48315}
+        - {x: -171, y: -272.51685}
+        - {x: 171, y: -272.51685}
+        - {x: 171, y: 273.48315}
+    - name: clown-interpolations_1
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 839
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.66669, y: 273.48315}
+        - {x: -170.66669, y: -272.51685}
+        - {x: 171.33331, y: -272.51685}
+        - {x: 171.33331, y: 273.48315}
+    - name: clown-interpolations_2
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 839
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.33337, y: 273.48315}
+        - {x: -170.33337, y: -272.51685}
+        - {x: 171.66663, y: -272.51685}
+        - {x: 171.66663, y: 273.48315}
+    - name: clown-interpolations_3
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 839
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.50006, y: 273.48315}
+        - {x: -170.50006, y: -272.51685}
+        - {x: 172.49994, y: -272.51685}
+        - {x: 172.49994, y: 273.48315}
+    - name: clown-interpolations_4
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 839
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.66675, y: 273.48315}
+        - {x: -170.66675, y: -272.51685}
+        - {x: 171.33325, y: -272.51685}
+        - {x: 171.33325, y: 273.48315}
+    - name: clown-interpolations_5
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 839
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.33337, y: 273.48315}
+        - {x: -170.33337, y: -272.51685}
+        - {x: 171.66663, y: -272.51685}
+        - {x: 171.66663, y: 273.48315}
+    - name: clown-interpolations_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -171, y: 273}
+        - {x: -171, y: -273}
+        - {x: 171, y: -273}
+        - {x: 171, y: 273}
+    - name: clown-interpolations_7
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.66669, y: 273}
+        - {x: -170.66669, y: -273}
+        - {x: 171.33331, y: -273}
+        - {x: 171.33331, y: 273}
+    - name: clown-interpolations_8
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.33337, y: 273}
+        - {x: -170.33337, y: -273}
+        - {x: 171.66663, y: -273}
+        - {x: 171.66663, y: 273}
+    - name: clown-interpolations_9
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 0
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.50006, y: 273}
+        - {x: -170.50006, y: -273}
+        - {x: 172.49994, y: -273}
+        - {x: 172.49994, y: 273}
+    - name: clown-interpolations_10
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.66675, y: 273}
+        - {x: -170.66675, y: -273}
+        - {x: 171.33325, y: -273}
+        - {x: 171.33325, y: 273}
+    - name: clown-interpolations_11
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 0
+        width: 525
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.33337, y: 273}
+        - {x: -170.33337, y: -273}
+        - {x: 171.66663, y: -273}
+        - {x: 171.66663, y: 273}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

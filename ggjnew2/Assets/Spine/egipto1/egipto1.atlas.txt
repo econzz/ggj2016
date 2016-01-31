@@ -1,0 +1,69 @@
+
+egipto1.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL
+  rotate: true
+  xy: 2, 88
+  size: 75, 186
+  orig: 75, 186
+  offset: 0, 0
+  index: -1
+armR
+  rotate: true
+  xy: 452, 307
+  size: 82, 176
+  orig: 82, 176
+  offset: 0, 0
+  index: -1
+bad
+  rotate: false
+  xy: 2, 2
+  size: 161, 84
+  orig: 161, 84
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 165
+  size: 189, 334
+  orig: 189, 334
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 193, 257
+  size: 257, 242
+  orig: 257, 242
+  offset: 0, 0
+  index: -1
+good
+  rotate: false
+  xy: 452, 222
+  size: 160, 83
+  orig: 160, 83
+  offset: 0, 0
+  index: -1
+legL
+  rotate: true
+  xy: 193, 171
+  size: 84, 223
+  orig: 84, 223
+  offset: 0, 0
+  index: -1
+legR
+  rotate: true
+  xy: 683, 407
+  size: 92, 234
+  orig: 92, 234
+  offset: 0, 0
+  index: -1
+shoulder
+  rotate: false
+  xy: 452, 391
+  size: 229, 108
+  orig: 229, 108
+  offset: 0, 0
+  index: -1

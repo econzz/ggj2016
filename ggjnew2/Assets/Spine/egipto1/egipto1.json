@@ -1,0 +1,140 @@
+{
+"skeleton": { "hash": "mmYL/gfLiQU+Ndv75LsD0+GAqIo", "spine": "3.0.08", "width": 1430.15, "height": 3249.16, "images": "../egipto1/images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "body", "parent": "root", "length": 1586.04, "x": 0.43, "y": 431.81, "rotation": 89.47 },
+	{ "name": "legR", "parent": "body", "length": 639.64, "x": 266.91, "y": 247.52, "rotation": -177.33 },
+	{ "name": "legL", "parent": "body", "length": 591.31, "x": 285.88, "y": -256.95, "rotation": -178.08 },
+	{ "name": "face", "parent": "body", "length": 1100.58, "x": 1638.82, "y": 9.96, "rotation": 0.26 },
+	{ "name": "armR", "parent": "body", "length": 806.77, "x": 1414.46, "y": 373.21, "rotation": 165.27 },
+	{ "name": "armL", "parent": "body", "length": 895.21, "x": 1474.25, "y": -395.24, "rotation": -165.77 }
+],
+"slots": [
+	{ "name": "legR", "bone": "legR", "attachment": "legR" },
+	{ "name": "legL", "bone": "legL", "attachment": "legL" },
+	{ "name": "armR", "bone": "armR", "attachment": "armR" },
+	{ "name": "body", "bone": "body", "attachment": "body" },
+	{ "name": "armL", "bone": "armL", "attachment": "armL" },
+	{ "name": "shoulder", "bone": "body", "attachment": "shoulder" },
+	{ "name": "face", "bone": "face", "attachment": "face" },
+	{ "name": "good", "bone": "face", "attachment": "good" }
+],
+"skins": {
+	"default": {
+		"armL": {
+			"armL": { "x": 529.78, "y": 3.9, "rotation": 76.26, "width": 374, "height": 931 }
+		},
+		"armR": {
+			"armR": { "x": 482.62, "y": -12.47, "rotation": 105.24, "width": 411, "height": 880 }
+		},
+		"body": {
+			"body": { "x": 593.03, "y": -10.23, "rotation": -89.48, "width": 943, "height": 1671 }
+		},
+		"face": {
+			"face": { "x": 527.21, "y": -30.54, "rotation": -89.75, "width": 1285, "height": 1211 }
+		},
+		"good": {
+			"good": { "x": 357.98, "y": 22.23, "rotation": -89.75, "width": 800, "height": 413 }
+		},
+		"legL": {
+			"legL": { "x": 204.2, "y": 0.46, "rotation": 88.57, "width": 420, "height": 1114 }
+		},
+		"legR": {
+			"legR": { "x": 154.84, "y": -12.7, "rotation": 87.82, "width": 458, "height": 1169 }
+		},
+		"shoulder": {
+			"shoulder": { "x": 1382.21, "y": -26.12, "rotation": -89.48, "width": 1145, "height": 541 }
+		}
+	}
+},
+"animations": {
+	"walk": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -2.07 },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"face": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -8.89 },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"armR": {
+				"rotate": [
+					{ "time": 0, "angle": -330.78 },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 1, "angle": -328.62 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"armL": {
+				"rotate": [
+					{ "time": 0, "angle": 331.32 },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 1, "angle": 332.77 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"legR": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": 33.44 },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": -27.31, "y": -49.09 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"legL": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": 335.89 },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": -55.02, "y": 106.83 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

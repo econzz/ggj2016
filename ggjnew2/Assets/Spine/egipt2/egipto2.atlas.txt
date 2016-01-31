@@ -1,0 +1,62 @@
+
+egipto2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL
+  rotate: true
+  xy: 2, 2
+  size: 99, 218
+  orig: 99, 218
+  offset: 0, 0
+  index: -1
+armR
+  rotate: true
+  xy: 272, 157
+  size: 96, 205
+  orig: 96, 205
+  offset: 0, 0
+  index: -1
+bad
+  rotate: false
+  xy: 479, 159
+  size: 126, 94
+  orig: 126, 94
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 272, 255
+  size: 219, 384
+  orig: 219, 384
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 2, 103
+  size: 268, 371
+  orig: 268, 371
+  offset: 0, 0
+  index: -1
+good
+  rotate: false
+  xy: 843, 395
+  size: 134, 79
+  orig: 134, 79
+  offset: 0, 0
+  index: -1
+legL
+  rotate: false
+  xy: 752, 287
+  size: 89, 187
+  orig: 89, 187
+  offset: 0, 0
+  index: -1
+legR
+  rotate: false
+  xy: 658, 274
+  size: 92, 200
+  orig: 92, 200
+  offset: 0, 0
+  index: -1

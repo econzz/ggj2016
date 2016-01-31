@@ -1,0 +1,132 @@
+{
+"skeleton": { "hash": "DIsW5bPwPL6oi5JMfAZcG9w7EDw", "spine": "3.0.08", "width": 1496.16, "height": 3203.16, "images": "./../china1/images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "body", "parent": "root", "length": 1284.36, "x": -3.22, "y": 723.48, "rotation": 90.2 },
+	{ "name": "legR", "parent": "body", "length": 693.55, "x": 74.96, "y": 286.16, "rotation": 177.5 },
+	{ "name": "legL", "parent": "body", "length": 690.25, "x": 68.6, "y": -189.67, "rotation": -175.98 },
+	{ "name": "face", "parent": "body", "length": 1039.66, "x": 1325.94, "y": -0.21, "rotation": -1.22 },
+	{ "name": "armR", "parent": "body", "length": 788.18, "x": 1119.56, "y": 416.34, "rotation": 163.73 },
+	{ "name": "armL", "parent": "body", "length": 797.69, "x": 1107.46, "y": -369.01, "rotation": -161.9 }
+],
+"slots": [
+	{ "name": "legR", "bone": "legR", "attachment": "legR" },
+	{ "name": "legL", "bone": "legL", "attachment": "legL" },
+	{ "name": "armR", "bone": "armR", "attachment": "armR" },
+	{ "name": "armL", "bone": "armL", "attachment": "armL" },
+	{ "name": "body", "bone": "body", "attachment": "body" },
+	{ "name": "face", "bone": "face", "attachment": "face" },
+	{ "name": "good", "bone": "face", "attachment": "good" }
+],
+"skins": {
+	"default": {
+		"armL": {
+			"armL": { "x": 454.24, "y": 9.12, "rotation": 71.67, "width": 427, "height": 898 }
+		},
+		"armR": {
+			"armR": { "x": 476.33, "y": -29.47, "rotation": 106.06, "width": 371, "height": 860 }
+		},
+		"body": {
+			"body": { "x": 501.53, "y": 19.71, "rotation": -90.2, "width": 1109, "height": 1706 }
+		},
+		"face": {
+			"face": { "x": 521.39, "y": -17.08, "rotation": -89.01, "width": 1383, "height": 1145 }
+		},
+		"good": {
+			"good": { "x": 317.62, "y": -61.11, "rotation": -89.01, "width": 956, "height": 356 }
+		},
+		"legL": {
+			"legL": { "x": 335.81, "y": -39.89, "rotation": 85.75, "width": 415, "height": 1030 }
+		},
+		"legR": {
+			"legR": { "x": 321.44, "y": -5.78, "rotation": 92.28, "width": 462, "height": 1045 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.58, "y": -2.55 },
+					{ "time": 0.5, "x": -13.35, "y": 32.24 },
+					{ "time": 1, "x": -4.43, "y": 0 }
+				]
+			},
+			"face": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"armR": {
+				"rotate": [
+					{ "time": 0, "angle": 15.54 },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 1, "angle": -339.45 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"armL": {
+				"rotate": [
+					{ "time": 0, "angle": 323.98 },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 1, "angle": 324.87 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"legR": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -337.53 },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": -25.42, "y": -54.9 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"legL": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": 342.58 },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 4.62, "y": -0.01 },
+					{ "time": 0.5, "x": -48.68, "y": 231.87 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "armL", "offset": 1 }
+				]
+			}
+		]
+	}
+}
+}

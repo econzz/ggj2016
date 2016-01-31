@@ -1,0 +1,48 @@
+
+china2.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bad
+  rotate: false
+  xy: 700, 161
+  size: 185, 91
+  orig: 185, 91
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 2
+  size: 250, 274
+  orig: 250, 274
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 278, 9
+  size: 227, 243
+  orig: 227, 243
+  offset: 0, 0
+  index: -1
+good
+  rotate: false
+  xy: 700, 86
+  size: 185, 73
+  orig: 185, 73
+  offset: 0, 0
+  index: -1
+legL
+  rotate: false
+  xy: 507, 47
+  size: 92, 205
+  orig: 92, 205
+  offset: 0, 0
+  index: -1
+legR
+  rotate: false
+  xy: 601, 52
+  size: 97, 200
+  orig: 97, 200
+  offset: 0, 0
+  index: -1

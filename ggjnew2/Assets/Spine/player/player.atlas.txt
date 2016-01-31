@@ -1,0 +1,55 @@
+
+player.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bad
+  rotate: false
+  xy: 811, 396
+  size: 157, 91
+  orig: 157, 91
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 261, 241
+  size: 247, 246
+  orig: 247, 246
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 2, 222
+  size: 257, 265
+  orig: 257, 265
+  offset: 0, 0
+  index: -1
+good
+  rotate: true
+  xy: 224, 72
+  size: 148, 81
+  orig: 148, 81
+  offset: 0, 0
+  index: -1
+legL
+  rotate: true
+  xy: 510, 268
+  size: 108, 293
+  orig: 108, 293
+  offset: 0, 0
+  index: -1
+legR
+  rotate: true
+  xy: 510, 378
+  size: 109, 299
+  orig: 109, 299
+  offset: 0, 0
+  index: -1
+luc
+  rotate: false
+  xy: 2, 2
+  size: 220, 218
+  orig: 220, 218
+  offset: 0, 0
+  index: -1

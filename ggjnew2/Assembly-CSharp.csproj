@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{EA8574AB-5F9D-4F72-D836-B34172BDA2E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Script\AnimeEndDisable.cs" />
+     <Compile Include="Assets\Script\ButtonController.cs" />
+     <Compile Include="Assets\Script\FadeScript.cs" />
+     <Compile Include="Assets\Script\Game.cs" />
+     <Compile Include="Assets\Script\GameController.cs" />
+     <Compile Include="Assets\Script\PersonDestroy.cs" />
+     <Compile Include="Assets\Script\PersonMove.cs" />
+     <Compile Include="Assets\Script\PersonSpawn.cs" />
+     <Compile Include="Assets\Script\Pink.cs" />
+     <Compile Include="Assets\Script\Result.cs" />
+     <Compile Include="Assets\Script\Story.cs" />
+     <Compile Include="Assets\Script\Top.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Animation.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\AnimationState.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\AnimationStateData.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Atlas.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Attachments\AtlasAttachmentLoader.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Attachments\Attachment.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Attachments\AttachmentLoader.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Attachments\AttachmentType.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Attachments\BoundingBoxAttachment.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Attachments\MeshAttachment.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Attachments\RegionAttachment.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Attachments\SkinnedMeshAttachment.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\BlendMode.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Bone.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\BoneData.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Event.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\EventData.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\ExposedList.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\IkConstraint.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\IkConstraintData.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Json.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Skeleton.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\SkeletonBinary.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\SkeletonBounds.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\SkeletonData.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\SkeletonJson.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Skin.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\Slot.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\src\SlotData.cs" />
+     <Compile Include="Assets\Spine\spine-unity\AtlasAsset.cs" />
+     <Compile Include="Assets\Spine\spine-unity\AtlasRegionAttacher.cs" />
+     <Compile Include="Assets\Spine\spine-unity\BoneFollower.cs" />
+     <Compile Include="Assets\Spine\spine-unity\BoundingBoxFollower.cs" />
+     <Compile Include="Assets\Spine\spine-unity\CustomSkin.cs" />
+     <Compile Include="Assets\Spine\spine-unity\Ghost\SkeletonGhost.cs" />
+     <Compile Include="Assets\Spine\spine-unity\Ghost\SkeletonGhostRenderer.cs" />
+     <Compile Include="Assets\Spine\spine-unity\Ragdoll\SkeletonRagdoll.cs" />
+     <Compile Include="Assets\Spine\spine-unity\Ragdoll\SkeletonRagdoll2D.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonAnimation.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonAnimationInterface.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonAnimator.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonDataAsset.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonExtensions.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonRenderer.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonUtility\SkeletonUtility.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonUtility\SkeletonUtilityConstraint.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonUtility\SkeletonUtilityEyeConstraint.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonUtility\SkeletonUtilityGroundConstraint.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonUtility\SkeletonUtilityKinematicShadow.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonUtility\SkeletonUtilitySubmeshRenderer.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SpineAttributes.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SpriteAttacher.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SpriteCollectionAttachmentLoader.cs" />
+     <Compile Include="Assets\Spine\spine-unity\YieldInstructions\WaitForSpineAnimationComplete.cs" />
+     <Compile Include="Assets\Spine\spine-unity\YieldInstructions\WaitForSpineEvent.cs" />
+     <None Include="Assets\Spine\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
+     <None Include="Assets\Spine\spine-unity\Shaders\HiddenPass.shader" />
+     <None Include="Assets\Spine\europ1\europ1.atlas.txt" />
+     <None Include="Assets\Spine\samerica1\samerica1.atlas.txt" />
+     <None Include="Assets\Spine\samerica2\samerica2.atlas.txt" />
+     <None Include="Assets\Spine\europ2\europ2.atlas.txt" />
+     <None Include="Assets\Spine\spine-unity\Shaders\Bones.shader" />
+     <None Include="Assets\Spine\spine-unity\Ghost\Shaders\SkeletonGhost.shader" />
+     <None Include="Assets\Spine\china2\china2.atlas.txt" />
+     <None Include="Assets\Spine\egipt2\egipto2.atlas.txt" />
+     <None Include="Assets\Spine\egipto1\egipto1.atlas.txt" />
+     <None Include="Assets\Spine\spine-unity\Shaders\Skeleton.shader" />
+     <None Include="Assets\Spine\antarctic\antarctic.atlas.txt" />
+     <None Include="Assets\Spine\player\player.atlas.txt" />
+     <None Include="Assets\Spine\Pantu\skeleton.atlas.txt" />
+     <None Include="Assets\Spine\spine-unity\Shaders\SkeletonLit.shader" />
+     <None Include="Assets\Spine\china1\china1.atlas.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{AFD163E7-1833-9C15-324D-4382DA6750E1}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

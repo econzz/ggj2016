@@ -1,0 +1,62 @@
+
+antarctic.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL
+  rotate: false
+  xy: 513, 259
+  size: 124, 225
+  orig: 124, 225
+  offset: 0, 0
+  index: -1
+armR
+  rotate: false
+  xy: 251, 40
+  size: 115, 208
+  orig: 115, 208
+  offset: 0, 0
+  index: -1
+bad
+  rotate: false
+  xy: 747, 392
+  size: 118, 92
+  orig: 118, 92
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 250
+  size: 234, 509
+  orig: 234, 509
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 2, 2
+  size: 247, 246
+  orig: 247, 246
+  offset: 0, 0
+  index: -1
+good
+  rotate: false
+  xy: 747, 305
+  size: 116, 85
+  orig: 116, 85
+  offset: 0, 0
+  index: -1
+legL
+  rotate: false
+  xy: 368, 48
+  size: 96, 200
+  orig: 96, 200
+  offset: 0, 0
+  index: -1
+legR
+  rotate: false
+  xy: 639, 291
+  size: 106, 193
+  orig: 106, 193
+  offset: 0, 0
+  index: -1
